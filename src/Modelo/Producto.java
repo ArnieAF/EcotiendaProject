@@ -19,6 +19,13 @@ public class Producto {
 
     public Producto() {}
 
+    public Producto(int categoria_id, String nombre, float precio, int cantidad) {
+        this.nombre = nombre;
+        this.precio = precio;
+        this.cantidad = cantidad;
+        this.categoria_id = categoria_id;
+    }
+    
     public Producto(int id, String nombre, String descripcion, float precio, int cantidad , int categoria_id) {
         this.id = id;
         this.nombre = nombre;

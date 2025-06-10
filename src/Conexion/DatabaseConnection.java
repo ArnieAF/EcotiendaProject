@@ -19,7 +19,7 @@ public class DatabaseConnection {
     // Parámetros de conexión — AJUSTA según tu configuración
     private final String url = "jdbc:mysql://localhost:3306/ECOTIENDA?useSSL=false";
     private final String user = "root";
-    private final String password = "admin";
+    private final String password = "";
 
     // Constructor privado (Singleton)
     private DatabaseConnection() {

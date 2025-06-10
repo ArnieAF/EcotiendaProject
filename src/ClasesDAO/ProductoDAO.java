@@ -8,6 +8,10 @@ import java.util.List;
 
 public class ProductoDAO {
 
+    public ProductoDAO() {
+    }
+
+    
     // Insertar un nuevo producto
     public boolean insertarProducto(Producto producto) {
         String sql = "INSERT INTO Producto (nombre, descripcion, precio, cantidad, categoria_id) VALUES (?, ?, ?, ?, ?)";

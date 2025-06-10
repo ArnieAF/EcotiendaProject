@@ -11,6 +11,7 @@ package Modelo;
 public class ItemCarrito {
     private Producto producto;
     private int cantidad;
+    private float Subtotal;
 
     public ItemCarrito(Producto producto, int cantidad) {
         this.producto = producto;
@@ -27,4 +28,18 @@ public class ItemCarrito {
     public float getSubtotal() {
         return producto.getPrecio() * cantidad;
     }
+
+    public void setProducto(Producto producto) {
+        this.producto = producto;
+    }
+
+    public void setCantidad(int cantidad) {
+        this.cantidad = cantidad;
+    }
+
+    public void setSubtotal(int Subtotal) {
+        this.Subtotal = Subtotal;
+    }
+    
+    
 }
