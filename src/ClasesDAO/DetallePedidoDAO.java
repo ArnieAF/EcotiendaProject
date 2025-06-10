@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DetallePedidoDAO {
-
+//asas
     // Insertar un detalle de pedido
     public boolean insertarDetallePedido(DetallePedido detalle) {
         String sql = "INSERT INTO detallepedido (cantidad, subTotal, idProducto, idPedido) VALUES (?, ?, ?, ?)";
